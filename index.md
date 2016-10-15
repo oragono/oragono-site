@@ -12,6 +12,8 @@ and use, and to provide the majority of features that IRC users expect today.
 It includes features such as UTF-8 nicks and channel names, client accounts and SASL, and other
 assorted IRCv3 support.
 
+                             <a href="https://github.com/DanielOaks/oragono">https://github.com/DanielOaks/oragono</a>
+
 -----------------------------------------------------------------------------------------------
 
 

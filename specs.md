@@ -6,13 +6,19 @@ meta-description: Specification links for the Oragono IRC server.
 {% include header.html %}
 
 <pre>
-Oragono roughly follows and draws from these specifications:
+Oragono roughly draws from these specifications:
 
 - Modern IRC: <a href="http://modern.ircdocs.horse/">http://modern.ircdocs.horse/</a>
 
-- IRC Defs: <a href="http://defs.ircdocs.horse/">http://defs.ircdocs.horse/</a>
-
 - IRCv3: <a href="http://ircv3.net/">http://ircv3.net/</a>
+
+
+Oragono also implements these proposed specifications:
+
+- <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/reg-core-3.3.md">reg-core</a> - Account registration.
+
+- <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7700.md">rfc7700</a>  - Unicode nick and channel names.
+
 
 For other specifications you should consider looking at, see this page:
 <a href="http://ircdocs.horse/specs/">http://ircdocs.horse/specs/</a>
