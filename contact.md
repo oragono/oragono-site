@@ -8,5 +8,5 @@ meta-description: Contact links for the Oragono IRC server.
 <pre>
 I can be contacted at <a href="mailto:daniel@danieloaks.net">daniel@danieloaks.net</a>, or on most IRC networks as either  dan-  or  dan_
 
-I also hang out in <a href="ircs://irc.freenode.net:6697/#ircdocs">#ircdocs on irc.freenode.com</a>, so drop by.
+I also hang out in <a href="ircs://irc.freenode.net:6697/#ircdocs">#ircdocs on irc.freenode.com</a>, so feel free to drop by.
 </pre>
