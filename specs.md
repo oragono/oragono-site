@@ -8,16 +8,16 @@ meta-description: Specification links for the Oragono IRC server.
 <pre>
 Oragono roughly draws from these specifications:
 
-- Modern IRC: <a href="http://modern.ircdocs.horse/">http://modern.ircdocs.horse/</a>
+ - Modern IRC: <a href="http://modern.ircdocs.horse/">http://modern.ircdocs.horse/</a>
 
-- IRCv3: <a href="http://ircv3.net/">http://ircv3.net/</a>
+ - IRCv3: <a href="http://ircv3.net/">http://ircv3.net/</a>
 
 
 Oragono also implements these proposed specifications:
 
-- <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/reg-core-3.3.md">reg-core</a> - Account registration.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/reg-core-3.3.md">reg-core</a> - Account registration.
 
-- <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7700.md">rfc7700</a>  - Unicode nick and channel names.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7700.md">rfc7700</a>  - Unicode nick and channel names.
 
 
 For other specifications you should consider looking at, see this page:
@@ -30,18 +30,18 @@ For other specifications you should consider looking at, see this page:
 
 The following 3.1 extensions are supported:
 
-- <a href="http://ircv3.net/specs/core/capability-negotiation-3.1.html">Capability Negotiation</a>
-- <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">account-notify</a>
-- <a href="http://ircv3.net/specs/extensions/away-notify-3.1.html">away-notify</a>
-- <a href="http://ircv3.net/specs/extensions/extended-join-3.1.html">extended-join</a>
-- <a href="http://ircv3.net/specs/extensions/multi-prefix-3.1.html">multi-prefix</a>
-- <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">sasl</a>
+ - <a href="http://ircv3.net/specs/core/capability-negotiation-3.1.html">Capability Negotiation</a>
+ - <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">account-notify</a>
+ - <a href="http://ircv3.net/specs/extensions/away-notify-3.1.html">away-notify</a>
+ - <a href="http://ircv3.net/specs/extensions/extended-join-3.1.html">extended-join</a>
+ - <a href="http://ircv3.net/specs/extensions/multi-prefix-3.1.html">multi-prefix</a>
+ - <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">sasl</a>
 
 The following 3.2 extensions are supported:
 
-- <a href="http://ircv3.net/specs/extensions/account-tag-3.2.html">account-tag</a>
-- <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
-- <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
+ - <a href="http://ircv3.net/specs/extensions/account-tag-3.2.html">account-tag</a>
+ - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
+ - <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
 
 
 -----------------------------------------------------------------------------------------------

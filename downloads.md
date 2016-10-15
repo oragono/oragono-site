@@ -7,8 +7,9 @@ meta-description: Download links for the Oragono IRC server.
 
 <pre>
 Oragono can be downloaded from Github under the Releases tab here:
-<a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
+ <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
+
 
 The latest source code can be found on our Github repo here:
-<a href="https://github.com/DanielOaks/oragono/">https://github.com/DanielOaks/oragono/</a>
+ <a href="https://github.com/DanielOaks/oragono/">https://github.com/DanielOaks/oragono/</a>
 </pre>

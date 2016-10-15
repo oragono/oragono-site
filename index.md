@@ -20,7 +20,7 @@ assorted IRCv3 support.
 === Installing ===
 
 To install Oragono, download the latest release here:
-<a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
+ <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
 
 Extract it into your favourite folder, along with the example config file.
 
