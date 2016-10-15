@@ -1,0 +1,12 @@
+name: Oragono
+# baseurl:
+exclude:
+  - README.md
+  - "ircd.db"
+  - "ircd.yaml"
+  - "tls.crt"
+  - "tls.key"
+gems:
+  - jekyll-sitemap
+sitemap:
+  file: "/sitemap.xml"
