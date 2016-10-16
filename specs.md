@@ -43,6 +43,10 @@ The following 3.2 extensions are supported:
  - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
  - <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
 
+The following 3.3 draft extensions are supported:
+
+- <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags
+
 
 -----------------------------------------------------------------------------------------------
 
