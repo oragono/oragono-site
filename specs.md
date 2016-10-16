@@ -41,6 +41,7 @@ The following 3.2 extensions are supported:
 
  - <a href="http://ircv3.net/specs/core/capability-negotiation-3.2.html">Capability Negotiation</a>
  - <a href="http://ircv3.net/specs/extensions/account-tag-3.2.html">account-tag</a>
+ - <a href="http://ircv3.net/specs/extensions/sasl-3.2.html">sasl</a>
  - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
  - <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
 
