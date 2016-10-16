@@ -45,7 +45,7 @@ The following 3.2 extensions are supported:
 
 The following 3.3 draft extensions are supported:
 
-- <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags
+ - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags
 
 
 -----------------------------------------------------------------------------------------------
