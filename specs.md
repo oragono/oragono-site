@@ -42,6 +42,8 @@ The following 3.2 extensions are supported:
  - <a href="http://ircv3.net/specs/core/capability-negotiation-3.2.html">Capability Negotiation</a>
  - <a href="http://ircv3.net/specs/core/monitor-3.2.html">Monitor</a>
  - <a href="http://ircv3.net/specs/extensions/account-tag-3.2.html">account-tag</a>
+ - <a href="http://ircv3.net/specs/extensions/cap-notify-3.2.html">cap-notify</a>
+ - <a href="http://ircv3.net/specs/extensions/echo-message-3.2.html">echo-message</a>
  - <a href="http://ircv3.net/specs/extensions/invite-notify-3.2.html">invite-notify</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.2.html">sasl</a>
  - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
