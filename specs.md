@@ -20,6 +20,11 @@ Oragono also implements these proposed specifications:
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7700.md">rfc7700</a>  - Unicode nick and channel names.
 
 
+And these specifications I've written up based on existing commands and behaviour:
+
+ - <a href="https://gist.github.com/DanielOaks/420d14efbbcda93a7d7e1dc00bf7dc25">Roleplay commands</a>
+
+
 For other specifications you should consider looking at, see this page:
 <a href="http://ircdocs.horse/specs/">http://ircdocs.horse/specs/</a>
 
