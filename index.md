@@ -7,17 +7,17 @@ meta-description: Oragono is a modern, experimental IRC server written in Go.
 
 <pre>
 Oragono is a modern, experimental IRC server written in Go. It's designed to be simple to setup
-and use, and to provide the majority of features that IRC users expect today.
+and use and to provide the majority of features that IRC users expect today.
 
-It includes features such as UTF-8 nicks and channel names, client accounts and SASL, and other
-assorted IRCv3 support.
+It includes features such as UTF-8 nicks and channel names, client accounts with SASL, and
+other assorted IRCv3 support.
 
                              <a href="https://github.com/DanielOaks/oragono">https://github.com/DanielOaks/oragono</a>
 
 -----------------------------------------------------------------------------------------------
 
 
-=== Installing ===
+=== Using ===
 
 To install Oragono, download the latest release here:
  <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
