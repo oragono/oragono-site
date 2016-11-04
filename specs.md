@@ -28,10 +28,10 @@ And these specifications I've written up based on existing commands and behaviou
 For other specifications you should consider looking at, see this page:
 <a href="http://ircdocs.horse/specs/">http://ircdocs.horse/specs/</a>
 
------------------------------------------------------------------------------------------------
+{% include hr.html %}
 
 
-=== IRCv3 Support ===
+<strong>=== IRCv3 Support ===</strong>
 
 The following 3.1 extensions are supported:
 
@@ -60,7 +60,7 @@ The following 3.3 draft extensions are supported:
  - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags
 
 
------------------------------------------------------------------------------------------------
+{% include hr.html %}
 
 Generally, I try to keep Oragono roughly close to how other IRC software behaves.
 

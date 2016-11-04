@@ -14,10 +14,10 @@ other assorted IRCv3 support.
 
                              <a href="https://github.com/DanielOaks/oragono">https://github.com/DanielOaks/oragono</a>
 
------------------------------------------------------------------------------------------------
+{% include hr.html %}
 
 
-=== Using ===
+<strong>=== Using ===</strong>
 
 To install Oragono, download the latest release here:
  <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
