@@ -17,7 +17,7 @@ other assorted IRCv3 support.
 {% include hr.html %}
 
 
-<strong>=== Using ===</strong>
+<strong>~=~ Using ~=~</strong>
 
 To install Oragono, download the latest release here:
  <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>

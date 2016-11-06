@@ -9,7 +9,7 @@ meta-description: Download links for the Oragono IRC server.
 Here's a few things you can do with Oragono: 
 
 
-<strong>=== Register an account ===</strong>
+<strong>~=~ Register an account ~=~</strong>
 
 1. Make sure "registration.accounts" is enabled and setup correctly in your config.
 
@@ -21,7 +21,7 @@ Here's a few things you can do with Oragono:
     - <strong>CertFP (TLS)</strong>:  /QUOTE REG CREATE dan * certfp *
 
 
-<strong>=== Authenticate for your account ===</strong>
+<strong>~=~ Authenticate for your account ~=~</strong>
 
 1. Setup SASL in your client.
 

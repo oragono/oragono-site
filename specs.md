@@ -31,7 +31,7 @@ For other specifications you should consider looking at, see this page:
 {% include hr.html %}
 
 
-<strong>=== IRCv3 Support ===</strong>
+<strong>~=~ IRCv3 Support ~=~</strong>
 
 The following 3.1 extensions are supported:
 
