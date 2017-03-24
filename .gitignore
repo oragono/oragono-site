@@ -104,3 +104,4 @@ _testmain.go
 /build/*
 /_site/
 _test
+/vendor/
