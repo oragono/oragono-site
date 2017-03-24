@@ -19,12 +19,14 @@ Oragono also implements these draft specifications:
 
  - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a>  - Message IDs.
 
+ - <a href="http://ircv3.net/specs/core/sts-3.3.html">sts</a>          - Strict Transport Security.
+
 
 Oragono also implements these proposed specifications:
 
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+line-lengths/extensions/line-lengths.md">maxline</a>  - Longer IRC lines.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/acc-core.md">acc-core</a> - Account registration.
 
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/reg-core-3.3.md">reg-core</a> - Account registration.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+line-lengths/extensions/line-lengths.md">maxline</a>  - Longer IRC lines.
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>  - Unicode nick and channel names.
 
@@ -65,12 +67,13 @@ The following stable extensions are supported:
 The following draft extensions are supported:
 
  - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags-0.2
- - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a> as the draft/msgid tag
+ - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a> as draft/msgid
+ - <a href="http://ircv3.net/specs/core/sts-3.3.html">sts</a> as draft/sts
 
 
 {% include hr.html %}
 
-Generally, I try to keep Oragono roughly close to how other IRC software behaves.
+Generally, I try to keep Oragono close to how other IRC software behaves.
 
 However, if there are any issues or there's a specific case you'd like to report,
 please visit the issue tracker here: <a href="https://github.com/DanielOaks/oragono/issues">https://github.com/DanielOaks/oragono/issues</a>
