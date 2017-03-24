@@ -11,7 +11,7 @@ Here's a few things you can do with Oragono:
 
 <strong>~=~ Register an account ~=~</strong>
 
-1. Make sure "registration.accounts" is enabled and setup correctly in your config.
+1. Make sure "accounts.registration" is enabled and setup correctly in your config.
 
 2. Connect to your server.
 
@@ -26,5 +26,20 @@ Here's a few things you can do with Oragono:
 1. Setup SASL in your client.
 
 2. Done!
+
+
+<strong>~=~ Register a channel ~=~</strong>
+
+1. Make sure "channels.registration" is enabled and setup correctly in your config.
+
+2. Make sure you're logged into your account.
+
+3. Make sure you're an op in the given channel.
+
+4. Send a message to ChanServ with this command:
+
+    /CS REGISTER #channel
+
+5. Done! Any topic updates will be remembered, and you'll be opped upon joining.
 
 </pre>
