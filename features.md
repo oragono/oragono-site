@@ -1,7 +1,7 @@
 ---
-title: Downloads
+title: Features
 layout: default
-meta-description: Download links for the Oragono IRC server.
+meta-description: Things you can do with the Oragono IRC server.
 ---
 {% include header.html %}
 
