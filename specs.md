@@ -76,5 +76,5 @@ The following draft extensions are supported:
 Generally, I try to keep Oragono close to how other IRC software behaves.
 
 However, if there are any issues or there's a specific case you'd like to report,
-please visit the issue tracker here: <a href="https://github.com/DanielOaks/oragono/issues">https://github.com/DanielOaks/oragono/issues</a>
+please visit the issue tracker here: <a href="https://github.com/oragono/oragono/issues">https://github.com/oragono/oragono/issues</a>
 </pre>

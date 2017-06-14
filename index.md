@@ -12,7 +12,7 @@ and use and to provide the majority of features that IRC users expect today.
 It includes features such as UTF-8 nicks and channel names, client accounts with SASL, and
 other assorted IRCv3 support.
 
-                             <a href="https://github.com/DanielOaks/oragono">https://github.com/DanielOaks/oragono</a>
+                              <a href="https://github.com/oragono/oragono">https://github.com/oragono/oragono</a>
 
                                  chat at <a href="ircs://irc.freenode.net:6697/#oragono">#oragono on Freenode</a>
 
@@ -22,7 +22,7 @@ other assorted IRCv3 support.
 <strong>~=~ Installing and Using ~=~</strong>
 
 To install Oragono, download the latest release here:
- <a href="https://github.com/DanielOaks/oragono/releases">https://github.com/DanielOaks/oragono/releases</a>
+ <a href="https://github.com/oragono/oragono/releases">https://github.com/oragono/oragono/releases</a>
 
 Extract it into your favourite folder, along with the example config file.
 
