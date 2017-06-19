@@ -28,6 +28,8 @@ Oragono also implements these proposed specifications:
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+line-lengths/extensions/line-lengths.md">maxline</a>  - Longer IRC lines.
 
+ - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>   - Channel renaming.
+
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>  - Unicode nick and channel names.
 
 
