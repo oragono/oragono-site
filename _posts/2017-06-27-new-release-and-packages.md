@@ -21,15 +21,15 @@ We're also now a [Github organisation](https://github.com/oragono), which holds 
 
 In terms of future direction, there's a bunch of features I have planned. Let me quickly talk about each of them:
 
- - <strong>IP Cloaking:</strong> This is, rather than displaying IP addresses of connected client you'd display something like <span class="noemph"><tt>4yfdxndgf3.jpbkkfnt3g.fhbk6ukspg.5jqti37n7o.test-cloaked</tt></span> instead. I'm pretty interested in this, and I'd say this is something I really want in the next release.
+ - <strong>IP Cloaking:</strong> This is, rather than displaying IP addresses of connected clients you'd display something like <span class="noemph"><tt>4yfdxndgf3.jpbkkfnt3g.fhbk6ukspg.5jqti37n7o.test-cloaked</tt></span> instead. I'm pretty interested in this, and I'd say this is something I really want in the next release.
 
- - <strong>XLINE 'Insane' Protections:</strong> Basically, to help stop you from accidentally banning half your network with a single command. With this protection, you'd need to add the INSANE paramter to your DLINE/KLINE command to submit it if the command bans more than x% of your network's users.
+ - <strong>XLINE 'Insane' Protections:</strong> Basically, this stops you from accidentally banning half your network with a single command. With this protection, you'd need to add the INSANE paramter to your DLINE/KLINE command, if it bans more than x% of your network's users.
 
  - <strong>DNSBL (DNS Blacklist) Support:</strong> This is another one that most other IRCds out there already have, but Oragono doesn't. I think it makes sense to implement this within a few releases, but figuring out exactly how configurable to make it is gonna be the challenge.
 
  - <strong>Email Verification for Accounts:</strong> Right now, Oragono only supports registing for accounts with no sort of verification. I've been planning this for a while but it's still honestly on the backburner. Does anyone have a pressing need for this, and how should I implement it? Standard SMTP, using a mail daemon such as sendmail on the machine itself? If you'd like this, feel free to reach out and tell me!
 
- - <strong>Unit Testing:</strong> I want to start on this, but it's difficult to really dive into it. I might look into this properly after the next release.
+ - <strong>Unit Testing:</strong> I want to start on this, but it's difficult to dive into it. I might look into this properly after the next release.
 
  - <strong>Extbans:</strong> I really want to do this, but it's on the backburner right now.
 
