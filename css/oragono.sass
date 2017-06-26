@@ -1,6 +1,6 @@
 ---
 ---
-body, pre
+body, pre, tt, code
     font-family: "Droid Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace
 
 html
@@ -22,11 +22,15 @@ body
     line-height: 1
 .light
     opacity: 0.3
-.term, .hr
+.term, .hr, .postinfo, .postinfo a, .noemph
     color: #666
 
 a
     text-decoration: none
+p
+    max-width: 95ch
+li p
+    max-width: 91ch
 
 @font-face
     font-family: "Droid Sans Mono"

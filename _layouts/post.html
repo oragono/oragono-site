@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<strong>~=~ {{ page.title }} ~=~</strong><br>
+<span class="postinfo">{% if page.author.name %}{{ page.author.name }} - {% endif %}{{ page.date | date_to_string }}></span>
+
+{{ page.content }}
