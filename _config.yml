@@ -1,4 +1,5 @@
 name: Oragono
+future: true
 # baseurl:
 exclude:
   - README.md
