@@ -1,7 +1,7 @@
 ---
 layout: post
 title: v0.8.1, Packages And Direction
-author: dan
+autho: dan
 ---
 Hey everyone, this is the first post on the new News section of our site! I'm planning to make a post each time we release a new version of Oragono, so people can keep an eye on server updates just by following the RSS feed [here: feed.xml](https://oragono.io/feed.xml)
 
