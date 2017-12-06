@@ -13,7 +13,12 @@ Oragono roughly draws from these specifications:
  - IRCv3: <a href="http://ircv3.net/">http://ircv3.net/</a>
 
 
-Oragono also implements these draft specifications:
+Oragono also implements these specifications:
+
+ - <a href="/maxline.html">oragono.io/maxline</a> - Longer IRC lines.
+
+
+Oragono also implements these draft IRCv3 specifications:
 
  - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> - Message Tags 3.3.
 
@@ -22,11 +27,9 @@ Oragono also implements these draft specifications:
  - <a href="http://ircv3.net/specs/core/sts-3.3.html">sts</a>          - Strict Transport Security.
 
 
-Oragono also implements these proposed specifications:
+Oragono also implements these specifications proposed to IRCv3:
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/acc-core.md">acc-core</a> - Account registration.
-
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+line-lengths/extensions/line-lengths.md">maxline</a>  - Longer IRC lines.
 
  - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>   - Channel renaming.
 

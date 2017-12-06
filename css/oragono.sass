@@ -11,10 +11,12 @@ body
     line-height: 1.2
 
 #center-wrapper
-    text-align: center
+    font-size: 1em
+    font-family: "Droid Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace
 #wrapper
-    text-align: left
-    display: inline-block
+    display: block
+    margin: 0 auto
+    width: 95ch
     padding: 0 1.3rem 1.1rem
     background: #fff
     border-radius: 0.2rem
@@ -25,12 +27,52 @@ body
 .term, .hr, .postinfo, .postinfo a, .noemph
     color: #666
 
+h1, h2, h3, h4, h5
+    font-size: 1em
+    font-weight: bold
+
+h1
+    &::before
+        content: "=== "
+    &::after
+        content: " ==="
+h2
+    margin-top: 2.5em
+    &::before
+        content: "~=~ "
+    &::after
+        content: " ~=~"
+h3
+    margin-top: 2em
+    &::before
+        content: "= "
+    &::after
+        content: " ="
+h4
+    margin-top: 2em
+
 a
     text-decoration: none
 p
     max-width: 95ch
 li p
     max-width: 91ch
+
+.spec
+    h1, h2, h3, h4 h5
+        page-break-after: avoid
+        break-after: avoid-page
+    p
+        display: block
+        position: relative
+        page-break-inside: avoid
+        break-inside: avoid-page
+    pre.highlight
+        margin-left: 2em
+
+@media print
+    .spec .header
+        display: none
 
 @font-face
     font-family: "Droid Sans Mono"
