@@ -24,8 +24,6 @@ Oragono also implements these draft IRCv3 specifications:
 
  - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a>  - Message IDs.
 
- - <a href="http://ircv3.net/specs/core/sts-3.3.html">sts</a>          - Strict Transport Security.
-
 
 Oragono also implements these specifications proposed to IRCv3:
 
@@ -67,13 +65,13 @@ The following stable extensions are supported:
  - <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">sasl 3.1</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.2.html">sasl 3.2</a>
  - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
+ - <a href="http://ircv3.net/specs/extensions/sts.html">sts</a>
  - <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
 
 The following draft extensions are supported:
 
  - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags-0.2
  - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a> as draft/msgid
- - <a href="http://ircv3.net/specs/core/sts-3.3.html">sts</a> as draft/sts
 
 
 {% include hr.html %}
