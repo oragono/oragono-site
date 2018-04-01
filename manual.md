@@ -125,13 +125,13 @@ With nickname ownership and account names, on most IRC servers your nickname and
 
 These are the two ways you can register an account:
 
-&nbsp;&nbsp;&nbsp;&nbsp;/QUOTE ACC REGISTER <username> * passphrase :<password>
-&nbsp;&nbsp;&nbsp;&nbsp;/NS REGISTER <username> <password>
+&nbsp;&nbsp;&nbsp;&nbsp;`/QUOTE ACC REGISTER <username> * passphrase :<password>`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/NS REGISTER <username> <password>`
 
 This is the way to go if you want to use a regular password. `<username>` and `<password>` are your username and password, respectively (make sure the leave that one `:` before your actual password!).
 
-&nbsp;&nbsp;&nbsp;&nbsp;/QUOTE ACC REGISTER <username> * certfp *
-&nbsp;&nbsp;&nbsp;&nbsp;/NS REGISTER <username>
+&nbsp;&nbsp;&nbsp;&nbsp;`/QUOTE ACC REGISTER <username> * certfp *`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/NS REGISTER <username>`
 
 If you want to use a TLS client certificate to authenticate (`SASL CERTFP`), then you can use the above method to do so. If you're not sure what this is, don't worry – just use the above password method to register an account.
 
@@ -228,7 +228,7 @@ To view the bans that exist on the channel, you can do this instead:
 
 With this channel mode, you can change who's allowed to bypass bans. For example, let's say you set these modes on the channel:
 
-&nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +b *!*@192.168.0.234
+&nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +b *!*@192.168.0.234<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +e bob!*@*
 
 This means that **bob** will always be able to join, even if he's connecting from `192.168.0.234`.
@@ -253,7 +253,7 @@ With this channel mode, you can change who's allowed to join the channel when th
 
 For example, let's say you set these modes on the channel:
 
-&nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +i
+&nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +i<br>
 &nbsp;&nbsp;&nbsp;&nbsp;/MODE #test +I bob!*@*
 
 This means that **bob** will be able to join even without being `/INVITE`'d.
@@ -379,11 +379,11 @@ The best place to look for command help is on a running copy or Oragono itself!
 
 To see the integrated command help, simply spin up a copy of Oragono and then run this command:
 
-&nbsp;&nbsp;&nbsp;&nbsp;/HELPOP <command>
+&nbsp;&nbsp;&nbsp;&nbsp;`/HELPOP <command>`
 
 If that doesn't work, you may need to run this instead:
 
-&nbsp;&nbsp;&nbsp;&nbsp;/QUOTE HELP <command>
+&nbsp;&nbsp;&nbsp;&nbsp;`/QUOTE HELP <command>`
 
 We may add some additional notes here for specific commands down the line, but right now the in-server docs are the best ones to consult.
 
