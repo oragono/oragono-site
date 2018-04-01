@@ -29,7 +29,7 @@ Oragono also implements these specifications proposed to IRCv3:
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/acc-core.md">acc-core</a> - Account registration.
 
- - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a> - Server message negotiation.
+ - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a> - Server language negotiation.
 
  - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>   - Channel renaming.
 
