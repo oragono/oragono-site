@@ -15,10 +15,10 @@ Here's a few things you can do with Oragono:
 
 2. Connect to your server.
 
-3. Register your account using the ACC command:
+3. Register your account:
 
-    - <strong>Passphrase</strong>:    /QUOTE ACC REGISTER dan * passphrase :mypasswordhere
-    - <strong>CertFP (TLS)</strong>:  /QUOTE ACC REGISTER dan * certfp *
+    - <strong>Passphrase</strong>:    /NS REGISTER dan mypasswordhere
+    - <strong>CertFP (TLS)</strong>:  /NS REGISTER dan
 
 
 <strong>~=~ Authenticate for your account ~=~</strong>

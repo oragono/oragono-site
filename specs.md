@@ -29,7 +29,11 @@ Oragono also implements these specifications proposed to IRCv3:
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/acc-core.md">acc-core</a> - Account registration.
 
+ - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a> - Server message negotiation.
+
  - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>   - Channel renaming.
+
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+resume/extensions/resume.md">resume</a>   - Connection resumption.
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>  - Unicode nick and channel names.
 
@@ -56,6 +60,7 @@ The following stable extensions are supported:
  - <a href="http://ircv3.net/specs/extensions/account-notify-3.1.html">account-notify</a>
  - <a href="http://ircv3.net/specs/extensions/account-tag-3.2.html">account-tag</a>
  - <a href="http://ircv3.net/specs/extensions/away-notify-3.1.html">away-notify</a>
+ - <a href="https://ircv3.net/specs/extensions/batch-3.2.html">batch</a>
  - <a href="http://ircv3.net/specs/extensions/chghost-3.2.html">chghost</a>
  - <a href="http://ircv3.net/specs/extensions/echo-message-3.2.html">echo-message</a>
  - <a href="http://ircv3.net/specs/extensions/extended-join-3.1.html">extended-join</a>
@@ -70,6 +75,7 @@ The following stable extensions are supported:
 
 The following draft extensions are supported:
 
+ - <a href="https://ircv3.net/specs/extensions/labeled-response.html">labeled-responses</a>
  - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags-0.2
  - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a> as draft/msgid
 
