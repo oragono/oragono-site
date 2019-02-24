@@ -1,4 +1,5 @@
 name: Oragono
+repository: ircv3/ircv3.github.io
 future: true
 # baseurl:
 exclude:
@@ -7,7 +8,7 @@ exclude:
   - "ircd.yaml"
   - "tls.crt"
   - "tls.key"
-gems:
+plugins:
   - jekyll-sitemap
 sitemap:
   file: "/sitemap.xml"
