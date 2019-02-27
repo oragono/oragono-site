@@ -26,7 +26,7 @@ For example:
 
 To match standard message handling, tags and the rest of the message have separate length values. The value of this capability represents the maximum number of bytes that the 'rest' section of the message can take up.
 
-As an example, if `maxline` is `1024` then the maximum size of a full IRC message would be `<taglength>+1024` bytes (the standard length of the tags section plus 1024 for the rest of the message).
+As an example, if `maxline` is `1024` then the maximum size of a full IRC message would be `<taglength>+1024` bytes (the standard [length of the tags section](https://ircv3.net/specs/extensions/message-tags.html#size-limit) plus 1024 for the rest of the message).
 
 Servers MUST truncate incoming messages to the `maxline` value before processing them.
 
