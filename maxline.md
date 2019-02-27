@@ -8,7 +8,18 @@ copyrights:
     period: "2016-2017"
     email: "daniel@danieloaks.net"
 ---
-The new version of this spec is [oragono.io/maxline-2](https://oragono.io/maxline-2)
+This capability is <strong style="color: #dd1f00;">out of date</strong> and has been replaced with [oragono.io/maxline-2](https://oragono.io/maxline-2)
+
+
+<div id="hovering-warning" onclick="disablewarning();"><div>
+    <p>This capability is <strong style="color: #dd1f00;">out of date</strong> and has been replaced with <a href="maxline-2">oragono.io/maxline-2</a></p>
+</div></div>
+<script>
+    function disablewarning() {
+        document.getElementById('hovering-warning').classList.add('hidden');
+    }
+</script>
+
 
 ## Introduction
 
