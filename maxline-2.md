@@ -35,7 +35,7 @@ The `maxline` value MUST be at least `512` and SHOULD default to at least `2048`
 ### Interaction with PRIVMSG and NOTICE
 If a client has negotiated the `oragono.io/maxline-2` capability and sends a `PRIVMSG` or a `NOTICE` message that is longer than 512 bytes, the receiving server MUST split this into multiple regular length messages (maximum 512 bytes) when sending it to clients that have not negotiated this capability.
 
-Servers SHOULD split on whitespace or other word boundaries, but may use whatever method is easiest for them to implement. Lines SHOULD NOT be split in the middle of a UTF-8 character.
+Servers SHOULD split on whitespace or other word boundaries, and may use whatever method is easiest for them to implement. Lines MUST NOT be split in the middle of a UTF-8 character.
 
 Servers MAY split other commands/numerics into multiple lines in whatever way ensures the best compatibility and functionality.
 
