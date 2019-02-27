@@ -9,7 +9,7 @@ copyrights:
     email: "daniel@danieloaks.net"
 ---
 ## Introduction
-There has been a desire to allow longer lines while sending or receiving IRC traffic, allowing longer messages with `PRIVMSG`/`NOTICE` and doing away with (or at least working around) the original limit of 512 bytes. However, doing so in a backwards-compatible way is very difficult without some opt-in from clients and explicit action from servers.
+There has been a desire to allow longer lines while sending or receiving IRC traffic, allowing longer messages with `PRIVMSG`/`NOTICE` and doing away with (or at least working around) the original limit of 512 bytes. However, doing so in a backwards-compatible way requires opt-in from clients and explicit action from servers.
 
 The `oragono.io/maxline-2` capability specifies the maximum length of the 'rest' of the message (everything that isn't the tags section), that the server allows. Lines are truncated or split to account for clients which have not negotiated this extended length.
 
@@ -37,7 +37,7 @@ If a client has negotiated the `oragono.io/maxline-2` capability and sends a `PR
 
 Servers SHOULD split on whitespace or other word boundaries, but may use whatever method is easiest for them to implement. Lines SHOULD NOT be split in the middle of a UTF-8 character.
 
-Servers MAY split other commands/numerics into multiple lines in a way similar to `PRIVMSG` and `NOTICE` above.
+Servers MAY split other commands/numerics into multiple lines in whatever way ensures the best compatibility and functionality.
 
 ### The `oragono.io/truncated` Tag
 The `oragono.io/truncated` tag, when present, indicates that a message has been truncated due to the client's line length. It may be sent to any client which has negotiated the [`message-tags` capability](https://ircv3.net/specs/extensions/message-tags.html#message-tags-capability).
