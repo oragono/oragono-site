@@ -8,6 +8,19 @@ copyrights:
     period: "2016-2017"
     email: "daniel@danieloaks.net"
 ---
+This capability is <strong style="color: #dd1f00;">out of date</strong> and has been replaced with [oragono.io/maxline-2](https://oragono.io/maxline-2)
+
+
+<div id="hovering-warning" onclick="disablewarning();"><div>
+    <p>This capability is <strong style="color: #dd1f00;">out of date</strong> and has been replaced with <a href="maxline-2">oragono.io/maxline-2</a></p>
+</div></div>
+<script>
+    function disablewarning() {
+        document.getElementById('hovering-warning').classList.add('hidden');
+    }
+</script>
+
+
 ## Introduction
 
 Currently, IRC lines are limited to 512 bytes. There has been much desire to allow longer lines while sending or receiving IRC traffic, allowing longer lines with `PRIVMSG`/`NOTICE`, and solving related issues that come into play while working with the IRC protocol. These issues in particular come into play as the protocol is extended to provide greater functionality.
