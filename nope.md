@@ -12,18 +12,15 @@ copyrights:
     period: "2019"
     email: "slingamn@cs.stanford.edu"
 ---
-
-
 ## Introduction
+The [capability negotiation](https://ircv3.net/specs/core/capability-negotiation) method used in IRC lets clients request protocol changes from servers. It's important to make sure that servers can continue introducing new capabilities that may change the protocol in drastic, backwards-incompatible ways.
 
-New IRCv3 features are typically designed for backwards compatibility with legacy clients. One of the principal mechanisms for supporting this is [capability negotiation](https://ircv3.net/specs/core/capability-negotiation.html). Servers advertise a list of optional features, and clients can request subsets of them to be enabled on their connections.
+The `oragono.io/nope` capability, inspired by the [GREASE](https://tools.ietf.org/html/draft-ietf-tls-grease-01) mechanism for TLS, is a capability that MAY NOT be requested by clients to help ensure their capability request mechanisms are working correctly and only requesting capabilities which the client can actually support (rather than, for example, assuming that all capabilities advertised by the server are fairly benign and blindly requesting all of them).
 
-Clients should only request capabilities which they have explicit provisions for supporting; they should not blindly request capabilities that the server advertises, since one should not assume that capabilities will change the server behavior only in benign, backwards-compatible ways (e.g., by adding another tag). `oragono.io/nope` is a capability, inspired by the [GREASE](https://tools.ietf.org/html/draft-ietf-tls-grease-01) mechanism for TLS, that attempts to discourage clients from doing so.
+We don't expect other clients to implement this feature. We're doing it to catch out clients and break them early so we can get them fixed.
 
 ## The Capability
-
-The `oragono.io/nope` capability has no value. If a client requests it during registration, the server MUST send an `ERROR` message with a suitable description (e.g., "Requesting the oragono.io/nope capability is forbidden") and close the connection. If a client requests it outside of registration, the server MUST NOT send an `ACK` for it, but SHOULD NOT disconnect the client, since this might be disruptive to end users.
+The `oragono.io/nope` capability has no value. If a client requests it during registration, the server sends an `ERROR` message with a suitable description and closes the connection. If a client requests it outside of registration, the server does not close the client's connection (as this could inspire adventurous users to tell others to "type `/QUOTE CAP REQ oragono.io/nope`!").
 
 ## Future work
-
-In the future we may consider randomly generating the capability name (by analogy with the GREASE specification).
+In the future we may consider randomly generating the capability name, similar to how the GREASE specification does.
