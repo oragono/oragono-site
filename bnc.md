@@ -8,6 +8,9 @@ copyrights:
     period: "2019"
     email: "slingamn@cs.stanford.edu"
 ---
+## Notes for implementing work-in-progress version
+This feature is experimental. The capability name is also experimental and may change in future.
+
 ## Introduction
 The fundamental identifier in IRC is the nickname. Traditionally, nicknames are ephemeral and are claimed upon connecting to the server: one can assume any unclaimed nickname, and closing or losing one's connection surrenders one's claim over the nickname. At most one client can be connected under a given nickname at a time.
 
@@ -17,7 +20,6 @@ With Oragono, we are planning a ground-up remedy for these problems, consisting 
 
 
 ## Behavior
-
 When advertised, the `oragono.io/bnc` capability indicates that the server is capable of attaching multiple clients to the same nickname. Requesting the capability indicates that the client is willing to reattach to an existing nickname. That is to say, if a client authenticates with SASL and negotiates this capability during pre-registration, then requests a nickname which is already held by a different client authenticated to the same account, the server SHOULD grant the same nickname to the new client, instead of responding with `433 ERR_NICKNAMEINUSE`. It will then play the usual burst of registration messages corresponding to that nickname, then accept input from the client as usual.
 
 If this happens, the following state MUST be shared between the two clients:
@@ -35,7 +37,6 @@ The server MUST verify that the two clients belong to the same user. Typically, 
 The server SHOULD NOT allow clients to mix TLS and non-TLS connections on the same nickname.
 
 ## Client support
-
 Most clients support this behavior reasonably well, because it matches the longstanding behavior of bouncers. Some clients may have trouble interpreting certain messages from other sessions, in particular ["self messages"](https://defs.ircdocs.horse/info/selfmessages.html) (direct messages sent from a different client attached to the same nickname, to a different user).
 
 Some clients support [znc.in/playback](https://wiki.znc.in/Playback), which will allow them to receive selective history playback upon reattaching.
@@ -43,7 +44,6 @@ Some clients support [znc.in/playback](https://wiki.znc.in/Playback), which will
 Clients may wish to enable strict nickname reservation in tandem with this functionality, i.e., prevent anyone not authenticated to their account from using their nickname at any time. Depending on server configuration, this may either be the default, or available via a `NickServ` preference: `/msg NickServ set enforce strict` should be informative.
 
 ## Future work
-
 The IRCv3 community is at work on additional specifications that will improve this functionality. In particular:
 
 1. The [CHATHISTORY specification](https://github.com/ircv3/ircv3-specifications/pull/349) will make it easier for clients to receive selective history playback when reattaching.
