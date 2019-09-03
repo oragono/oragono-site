@@ -15,7 +15,7 @@ Oragono roughly draws from these specifications:
 
 Oragono also implements these specifications:
 
- - <a href="/maxline.html">oragono.io/maxline</a> - Longer IRC lines.
+ - <a href="/maxline-2.html">oragono.io/maxline-2</a> - Longer IRC lines.
 
 
 Oragono also implements these draft IRCv3 specifications:
