@@ -8,6 +8,6 @@ meta-description: Manual for the Oragono IRC server.
 <pre>
 The manual for the latest stable release of Oragono can be viewed on <a href="https://github.com/oragono/oragono/blob/stable/docs/MANUAL.md">GitHub</a>.
 
-If you downloaded a release, a copy of the manual page for that release should be included in the
-`docs` directory.
+If you downloaded a release, a copy of the manual page for that release should be
+included in the `docs` directory.
 </pre>
