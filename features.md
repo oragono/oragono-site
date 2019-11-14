@@ -15,10 +15,10 @@ Here's a few things you can do with Oragono:
 
 2. Connect to your server.
 
-3. Register your account:
+3. Register your current nickname as an account:
 
-    - <strong>Passphrase</strong>:    /NS REGISTER dan mypasswordhere
-    - <strong>CertFP (TLS)</strong>:  /NS REGISTER dan
+    - <strong>Passphrase</strong>:    /NS REGISTER mypasswordhere
+    - <strong>CertFP (TLS)</strong>:  /NS REGISTER *
 
 
 <strong>~=~ Authenticate for your account ~=~</strong>
