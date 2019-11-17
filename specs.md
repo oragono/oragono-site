@@ -17,12 +17,9 @@ Oragono also implements these specifications:
 
  - <a href="/maxline-2.html">oragono.io/maxline-2</a> - Longer IRC lines.
 
+ - <a href="/bnc.html">oragono.io/bnc</a> - Allowing multiple clients to share a nickname.
 
-Oragono also implements these draft IRCv3 specifications:
-
- - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> - Message Tags 3.3.
-
- - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a>  - Message IDs.
+ - <a href="/nope.html">oragono.io/nope</a> - A way of detecting incorrect client implementations.
 
 
 Oragono also implements these specifications proposed to IRCv3:
@@ -66,6 +63,8 @@ The following stable extensions are supported:
  - <a href="http://ircv3.net/specs/extensions/extended-join-3.1.html">extended-join</a>
  - <a href="http://ircv3.net/specs/extensions/invite-notify-3.2.html">invite-notify</a>
  - <a href="http://ircv3.net/specs/core/monitor-3.2.html">monitor</a>
+ - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a>
+ - <a href="https://ircv3.net/specs/extensions/message-tags">message-tags</a>
  - <a href="http://ircv3.net/specs/extensions/multi-prefix-3.1.html">multi-prefix</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">sasl 3.1</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.2.html">sasl 3.2</a>
@@ -76,8 +75,6 @@ The following stable extensions are supported:
 The following draft extensions are supported:
 
  - <a href="https://ircv3.net/specs/extensions/labeled-response.html">labeled-responses</a>
- - <a href="http://ircv3.net/specs/core/message-tags-3.3.html">message-tags</a> as draft/message-tags-0.2
- - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a> as draft/msgid
 
 
 {% include hr.html %}
