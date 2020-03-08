@@ -15,24 +15,26 @@ Oragono roughly draws from these specifications:
 
 Oragono also implements these specifications:
 
- - <a href="/maxline-2.html">oragono.io/maxline-2</a> - Longer IRC lines.
-
- - <a href="/bnc.html">oragono.io/bnc</a> - Allowing multiple clients to share a nickname.
-
  - <a href="/nope.html">oragono.io/nope</a> - A way of detecting incorrect client implementations.
+ 
+ - <a href="https://wiki.znc.in/Query_buffers#Self_messages">znc.in/self-message</a> - Letting clients receive self messages in buffer playback.
+ 
+ - <a href="https://wiki.znc.in/Playback">znc.in/playback</a> - Letting clients request history from the server if it's configured.
 
 
 Oragono also implements these specifications proposed to IRCv3:
 
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/register-and-verify/extensions/acc-core.md">acc-core</a> - Account registration.
+ - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a>   - Server language negotiation.
 
- - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a> - Server language negotiation.
+ - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>     - Channel renaming.
 
- - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>   - Channel renaming.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+resume/extensions/resume.md">resume</a>     - Connection resumption.
 
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+resume/extensions/resume.md">resume</a>   - Connection resumption.
-
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>  - Unicode nick and channel names.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>    - Unicode nick and channel names.
+ 
+ - <a href="https://github.com/jwheare/ircv3-specifications/blob/multiline/extensions/multiline.md">multiline</a>  - Longer lines.
+ 
+ - <a href="https://github.com/prawnsalad/ircv3-specifications/blob/chathistory/extensions/chathistory.md">chathistory</a> - Chat history grabbing.
 
 
 And these specifications I've written up based on existing commands and behaviour:
