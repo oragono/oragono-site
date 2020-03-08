@@ -6,7 +6,7 @@ meta-description: Specification links for the Oragono IRC server.
 {% include header.html %}
 
 <pre>
-Oragono roughly draws from these specifications:
+Oragono roughly draws from these sources:
 
  - Modern IRC: <a href="http://modern.ircdocs.horse/">http://modern.ircdocs.horse/</a>
 
@@ -64,19 +64,16 @@ The following stable extensions are supported:
  - <a href="http://ircv3.net/specs/extensions/echo-message-3.2.html">echo-message</a>
  - <a href="http://ircv3.net/specs/extensions/extended-join-3.1.html">extended-join</a>
  - <a href="http://ircv3.net/specs/extensions/invite-notify-3.2.html">invite-notify</a>
- - <a href="http://ircv3.net/specs/core/monitor-3.2.html">monitor</a>
+ - <a href="https://ircv3.net/specs/extensions/labeled-response.html">labeled-response</a>
  - <a href="http://ircv3.net/specs/extensions/message-ids.html">message-ids</a>
  - <a href="https://ircv3.net/specs/extensions/message-tags">message-tags</a>
+ - <a href="http://ircv3.net/specs/core/monitor-3.2.html">monitor</a>
  - <a href="http://ircv3.net/specs/extensions/multi-prefix-3.1.html">multi-prefix</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.1.html">sasl 3.1</a>
  - <a href="http://ircv3.net/specs/extensions/sasl-3.2.html">sasl 3.2</a>
  - <a href="http://ircv3.net/specs/extensions/server-time-3.2.html">server-time</a>
  - <a href="http://ircv3.net/specs/extensions/sts.html">sts</a>
  - <a href="http://ircv3.net/specs/extensions/userhost-in-names-3.2.html">userhost-in-names</a>
-
-The following draft extensions are supported:
-
- - <a href="https://ircv3.net/specs/extensions/labeled-response.html">labeled-responses</a>
 
 
 {% include hr.html %}
