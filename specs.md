@@ -26,11 +26,11 @@ Oragono also implements these specifications proposed to IRCv3:
 
  - <a href="https://gist.github.com/DanielOaks/8126122f74b26012a3de37db80e4e0c6">language</a>   - Server language negotiation.
 
- - <a href="https://github.com/SaberUK/ircv3-specifications/blob/rename/extensions/rename.md">rename</a>     - Channel renaming.
+ - <a href="https://github.com/ircv3/ircv3-specifications/pull/308">rename</a>     - Channel renaming.
 
  - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+resume/extensions/resume.md">resume</a>     - Connection resumption.
 
- - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master%2Brfc7700/documentation/rfc7613.md">rfc7613</a>    - Unicode nick and channel names.
+ - <a href="https://github.com/DanielOaks/ircv3-specifications/blob/master+rfc7700/documentation/rfc8265.md">rfc8265</a>    - Unicode nick and channel names.
  
  - <a href="https://github.com/jwheare/ircv3-specifications/blob/multiline/extensions/multiline.md">multiline</a>  - Longer lines.
  
