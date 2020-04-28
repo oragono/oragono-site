@@ -1,16 +1,19 @@
 ---
 title: Home
 layout: default
-meta-description: Oragono is a modern, experimental IRC server written in Go.
+meta-description: Oragono is a modern IRC server written in Go.
 ---
 {% include header.html %}
 
 <pre>
-Oragono is a modern, experimental IRC server written in Go. It's designed to be simple to setup
-and use and to provide the majority of features that IRC users expect today.
+Oragono is a modern IRC server written in Go. Its core design principles are:
 
-It includes features such as UTF-8 nicks and channel names, client accounts with SASL, and
-other assorted IRCv3 support.
+* Being simple to set up and use
+* Combining the features of an ircd, a services framework, and a bouncer
+  (integrated account management, history storage, and bouncer functionality)
+* Bleeding-edge <a href="https://ircv3.net">IRCv3</a> support, suitable for use as an IRCv3 reference
+  implementation
+* Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config
 
                               <a href="https://github.com/oragono/oragono">https://github.com/oragono/oragono</a>
 
