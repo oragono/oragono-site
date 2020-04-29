@@ -15,6 +15,12 @@ Oragono is a modern IRC server written in Go. Its core design principles are:
   implementation
 * Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config
 
+Other interesting features of Oragono include:
+
+* Advanced internationalization support, including UTF-8 nicknames and
+  channel names
+* Support for running as a Tor onion service ("hidden service")
+
                               <a href="https://github.com/oragono/oragono">https://github.com/oragono/oragono</a>
 
                                  chat at <a href="ircs://irc.freenode.net:6697/#oragono">#oragono on Freenode</a>
