@@ -5,29 +5,28 @@ meta-description: Oragono is a modern IRC server written in Go.
 ---
 {% include header.html %}
 
-<pre>
 Oragono is a modern IRC server written in Go. Its core design principles are:
 
 * Being simple to set up and use
-* Combining the features of an ircd, a services framework, and a bouncer
-  (integrated account management, history storage, and bouncer functionality)
-* Bleeding-edge <a href="https://ircv3.net">IRCv3</a> support, suitable for use as an IRCv3 reference
-  implementation
+* Combining the features of an ircd, a services framework, and a bouncer (integrated account management, history storage, and bouncer functionality)
+* Bleeding-edge [IRCv3](https://ircv3.net) support, suitable for use as an IRCv3 reference implementation
 * Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config
 
 Other interesting features of Oragono include:
 
-* Advanced internationalization support, including UTF-8 nicknames and
-  channel names
+* Advanced internationalization support, including UTF-8 nicknames and channel names
 * Support for running as a Tor onion service ("hidden service")
 
-                              <a href="https://github.com/oragono/oragono">https://github.com/oragono/oragono</a>
+To find out more about the project:
 
-                                 chat at <a href="ircs://irc.freenode.net:6697/#oragono">#oragono on Freenode</a>
+* Our source code, issue tracker, and releases are on GitHub: <https://github.com/oragono/oragono>
+* You can chat with us in [#oragono on Freenode](ircs://irc.freenode.net:6697/#oragono)
+* You can play with a running instance at [testnet.oragono.io](https://testnet.oragono.io)
+* Or you can have your own instance up and running in a few minutes --- see below!
 
 {% include hr.html %}
 
-
+<pre>
 <strong>~=~ Installing and Using ~=~</strong>
 
 To install Oragono, download the latest release here:
