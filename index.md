@@ -19,9 +19,10 @@ Other interesting features of Oragono include:
 
 To find out more about the project:
 
-* Our source code and issue tracker are on GitHub: [https://github.com/oragono/oragono]
+* Our source code, issue tracker, and releases are on GitHub: <https://github.com/oragono/oragono>
 * You can chat with us in [#oragono on Freenode](ircs://irc.freenode.net:6697/#oragono)
-* Play with a running instance at [testnet.oragono.io](https://testnet.oragono.io)
+* You can play with a running instance at [testnet.oragono.io](https://testnet.oragono.io)
+* Or you can have your own instance up and running in a few minutes --- see below!
 
 {% include hr.html %}
 
