@@ -17,13 +17,11 @@ Other interesting features of Oragono include:
 * Advanced internationalization support, including UTF-8 nicknames and channel names
 * Support for running as a Tor onion service ("hidden service")
 
-<div class="center">
-[https://github.com/oragono/oragono]
+To find out more about the project:
 
-chat with us at [#oragono on Freenode](ircs://irc.freenode.net:6697/#oragono)
-
-play with a running instance at <a href="https://testnet.oragono.io">https://testnet.oragono.io</a>
-</div>
+* Our source code and issue tracker are on GitHub: [https://github.com/oragono/oragono]
+* You can chat with us in [#oragono on Freenode](ircs://irc.freenode.net:6697/#oragono)
+* Play with a running instance at [testnet.oragono.io](https://testnet.oragono.io)
 
 {% include hr.html %}
 
