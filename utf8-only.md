@@ -8,12 +8,6 @@ copyrights:
     period: "2021"
     email: "daniel@danieloaks.net"
 ---
-## Notes for implementing work-in-progress version
-This is a work-in-progress specification.
-
-Software implementing this work-in-progress specification MUST NOT use the unprefixed `utf8-only` capability name. Instead, implementations MUST use the `oragono.io/utf8-only` capability name to be interoperable with other software implementing a compatible work-in-progress version.
-
-
 ## Introduction
 IRC encodings have been an issue for a very long time. Some servers decide to disallow all encodings other than UTF-8 to prevent interoperability issues between clients. This specification defines an informational cap and a `FAIL` code to assist clients while connected to servers that do this.
 
