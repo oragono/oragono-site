@@ -12,7 +12,7 @@ Ergo (formerly Oragono) is a modern IRC server written in Go. Its core design pr
 * Bleeding-edge [IRCv3](https://ircv3.net) support, suitable for use as an IRCv3 reference implementation
 * Highly customizable via a rehashable (i.e., reloadable at runtime) YAML config
 
-Other interesting features of Oragono include:
+Other interesting features of Ergo include:
 
 * Advanced internationalization support, including UTF-8 nicknames and channel names
 * Support for running as a Tor onion service ("hidden service")
