@@ -1,11 +1,11 @@
 ---
 title: Home
 layout: default
-meta-description: Oragono is a modern IRC server written in Go.
+meta-description: Ergo (formerly Oragono) is a modern IRC server written in Go.
 ---
 {% include header.html %}
 
-Oragono is a modern IRC server written in Go. Its core design principles are:
+Ergo (formerly Oragono) is a modern IRC server written in Go. Its core design principles are:
 
 * Being simple to set up and use
 * Combining the features of an ircd, a services framework, and a bouncer (integrated account management, history storage, and bouncer functionality)
@@ -19,50 +19,7 @@ Other interesting features of Oragono include:
 
 To find out more about the project:
 
-* Our source code, issue tracker, and releases are on GitHub: <https://github.com/oragono/oragono>
-* You can chat with us in [#oragono on Freenode](ircs://irc.freenode.net:6697/#oragono)
-* You can play with a running instance at [testnet.oragono.io](https://testnet.oragono.io)
-* Or you can have your own instance up and running in a few minutes --- see below!
-
-{% include hr.html %}
-
-<pre>
-<strong>~=~ Installing and Using ~=~</strong>
-
-To install Oragono, download the latest release here:
- <a href="https://github.com/oragono/oragono/releases">https://github.com/oragono/oragono/releases</a>
-
-Extract it into your favourite folder, along with the example config file.
-
-Copy the example config file to  ircd.yaml  with a command like:
-
-    <span class="term">$</span> cp oragono.yaml ircd.yaml
-
-Modify the config file as you like.
-
-To generate passwords for opers and connect passwords, you can use this command:
-
-    <span class="term">$</span> oragono genpasswd
-
-Run these commands in order -- these will setup each section of the server:
-
-    <span class="term">$</span> oragono initdb
-    <span class="term">$</span> oragono mkcerts
-    <span class="term">$</span> oragono run
-
-And you should be running Oragono!
-
-
-<strong>~=~ Updating ~=~</strong>
-
-If you're updating from a previous version of Oragono, checkout the CHANGELOG for a shortlist
-of important changes you'll want to take a look at. The change log details config changes,
-fixes, new features and anything else you'll want to be aware of!
-
-These commands will backup and update your database, if that's been updated:
-
-    <span class="term">$</span> cp ircd.db ircd.db.bak
-    <span class="term">$</span> oragono upgradedb
-
-After this, you should be fine to launch and use Oragono!
-</pre>
+* Our source code, issue tracker, and releases are on GitHub: <https://github.com/ergochat/ergo>
+* You can chat with us in [#ergo on libera.chat](ircs://irc.libera.chat:6697/#ergo), or in [#ergo on irc.ergo.chat](ircs://irc.ergo.chat:6697)
+* You can play with a running instance at [testnet.ergo.chat](https://testnet.ergo.chat)
+* Or you can have your own instance up and running in a few minutes --- see our [quick start guide](https://github.com/ergochat/ergo#quick-start-guide)!
