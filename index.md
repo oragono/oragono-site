@@ -19,6 +19,7 @@ Other interesting features of Ergo include:
 
 To find out more about the project:
 
+* We are currently in the process of moving this website to its new home at <https://ergo.chat>
 * Our source code, issue tracker, and releases are on GitHub: <https://github.com/ergochat/ergo>
 * You can chat with us in [#ergo on libera.chat](ircs://irc.libera.chat:6697/#ergo), or in [#ergo on irc.ergo.chat](ircs://irc.ergo.chat:6697)
 * You can play with a running instance at [testnet.ergo.chat](https://testnet.ergo.chat)
