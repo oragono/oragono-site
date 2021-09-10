@@ -112,6 +112,24 @@ pre .hrpre
     &.hidden
         display: none
 
+#hovering-ergo-warning
+    color: #222222
+    background: rgba(20,20,20,0.75)
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    &.displaynone
+        display: none
+    > div
+        max-width: calc(100% - 2rem)
+        width: 37rem
+        background: #fbfbfb
+        margin: 7rem auto 1rem
+        padding: 1.5rem 1.85rem
+        border-radius: 1.5rem
+
 @media print
     .spec .header
         display: none

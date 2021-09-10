@@ -11,5 +11,31 @@
         <div id="center-wrapper"><div id="wrapper">
             {{ content }}
         </div></div>
+
+        <div id="hovering-ergo-warning" onclick="disablemodal();">
+            <div>
+                <h1><strong>Oragono</strong> is now <strong>Ergo</strong></h1>
+
+                <p>
+                    As of v2.7.0, we've changed names to Ergo! We've also changed sites. While this site is left here for historical reference, please see this new site for news about our IRC server:
+                </p>
+
+                <p>
+                    <a href="https://ergo.chat/">https://ergo.chat/</a>
+                </p>
+
+                <p>-------------------------------------------------------------</p>
+
+                <p>
+                    If you want to view the old site, click anywhere else!
+                </p>
+            </div>
+        </div>
+
+        <script>
+            function disablemodal() {
+                document.getElementById('hovering-ergo-warning').classList.add('displaynone');
+            }
+        </script>
     </body>
 </html>
